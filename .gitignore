@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+**/bin/
+**/obj/
+
+# Internal working checkpoint; contains local-only session notes.
+/PROGRESS.md
+
+# Generated previews and local OCR runtime data.
+/*-preview.png
+/*-fixed.png
+/avatar-profile.png
+/vie.traineddata
+**/node_modules/
+**/dist/

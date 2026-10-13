@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="sun" x1="38" y1="25" x2="82" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1A8"/>
+      <stop offset="1" stop-color="#F8C72E"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="34" y1="57" x2="88" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E78391"/>
+      <stop offset=".55" stop-color="#D85D79"/>
+      <stop offset="1" stop-color="#BC4F68"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#E7B51D" stroke-width="5" stroke-linecap="round">
+    <path d="M60 5v12M37 10l5 11M18 24l9 9M7 45l12 4M5 68h13M10 91l11-5M83 10l-5 11M102 24l-9 9M113 45l-12 4M115 68h-13M110 91l-11-5"/>
+  </g>
+  <circle cx="60" cy="56" r="34" fill="url(#sun)" stroke="#E5B51E" stroke-width="5"/>
+  <path d="M60 99 32 73C15 57 26 38 43 39c8 0 13 5 17 11 4-6 9-11 17-11 17-1 28 18 11 34L60 99Z" fill="url(#heart)" stroke="#C95570" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m60 88-21-20c-10-10-4-20 5-20 7 0 11 6 16 12 5-6 9-12 16-12 9 0 15 10 5 20L60 88Z" stroke="#F4B0B7" stroke-width="4" stroke-linejoin="round"/>
+</svg>
